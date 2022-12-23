@@ -1,0 +1,163 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{ 
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family: 'Jura', sans-serif;
+
+    background-color: black;
+    color: white;
+    background-image: url(images/backgroundIMG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.logo, .TopMenu{
+    display:inline-block;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 25px;
+
+    font-family: 'Jura', sans-serif;
+}
+
+.TopMenu li{ 
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+    transition: 0.2s;
+
+}
+
+.TopMenu a{
+    font-family: 'Jura', sans-serif;
+
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+    
+}
+
+.TopMenu a:hover{
+    color: rgb(49, 194, 16);
+}
+
+.logo h1{
+    font-family: 'Jura', sans-serif;
+
+    font-size: 30px;
+    vertical-align: middle;
+    color:white;
+}
+
+
+
+.container-Main {
+    margin: 0px auto;
+    background: transparent;
+    height: 1550px;
+    width: 1100px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+.container-1{
+    display: flex;
+    margin-left: 50px;
+    opacity: 1;
+
+}
+
+.container-1 ul{
+    list-style: none;
+
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.boxImage{
+    border-radius: 20px;
+    color:black;
+
+}
+
+.boxText{
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+
+}
+
+.boxText p{
+    margin-top: 32px;
+
+}
+
+
+.rectangle {
+    background: grey;
+    margin-top: 50px;
+    height: 256px;
+    width: 900px;
+    padding: 50px;
+    box-shadow: 2px 2px 15px #32CD32;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+
+
+}
+
+
+footer p{
+    font-family: 'Jura', sans-serif;
+    color:#32CD32;
+    text-decoration:none;
+
+}
+footer{
+    background: black;
+    font-family: 'Jura', sans-serif;
+    border: 2px solid rgb(49, 194, 16);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 250px;
+}
+
+table{
+    margin: 50px auto;
+    border-collapse: collapse;
+    background: black;
+}
+
+th, td{
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    color:  rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none !important;
+    border: none !important;
+
+}
+
