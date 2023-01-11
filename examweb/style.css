@@ -1,0 +1,42 @@
+header, footer {
+    background-color: #2c75ff;
+}
+
+.logo {
+    width: 250px;
+    
+}
+
+.nav-link, footer {
+    color: white;
+}
+
+.name-company p {
+    color: white;
+}
+
+main {
+    background-color: #FFBD19;
+}
+
+.routes-list, .guides-list, .dignity {
+    border: silver 2px solid;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-secondary);
+}
+
+.dropdown {
+    height: 150px;
+}
+
+.modal-content {
+    background-color:#FFBD19;
+}
+
+.alerts {
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
